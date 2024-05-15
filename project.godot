@@ -9,6 +9,11 @@
 config_version=4
 
 _global_script_classes=[ {
+"base": "GutTest",
+"class": "CookieClickerTest",
+"language": "GDScript",
+"path": "res://test/unit/test_CookieClicker.gd"
+}, {
 "base": "Reference",
 "class": "GutHookScript",
 "language": "GDScript",
@@ -20,6 +25,7 @@ _global_script_classes=[ {
 "path": "res://addons/gut/test.gd"
 } ]
 _global_script_class_icons={
+"CookieClickerTest": "",
 "GutHookScript": "",
 "GutTest": ""
 }

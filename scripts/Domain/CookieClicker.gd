@@ -9,3 +9,5 @@ func get_cookies():
 
 func earn_cookie():
 	_cookies += 1
+
+

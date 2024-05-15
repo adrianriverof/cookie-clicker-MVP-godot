@@ -13,5 +13,10 @@ func test_earn_cookie():
 	sut.earn_cookie()
 	assert_eq(1, sut.get_cookies())
 
-
+func test_earn_more_than_one_cookie():
+	var sut = CookieClicker.new()
+	sut.earn_cookie()
+	sut.earn_cookie()
+	sut.earn_cookie()
+	assert_eq(3, sut.get_cookies())
 

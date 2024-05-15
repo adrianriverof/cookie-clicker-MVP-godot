@@ -8,7 +8,7 @@ class_name EarnCookieTest
 func test_EarnCookies():
 	var domain = CookieClicker.new()
 	var sut = EarnCookie.new()
-	sut.EarnCookie(domain)
+	sut.EarnCookie(domain, MockOutputCounter.new())
 	
 	sut.execute()
 	
@@ -20,7 +20,7 @@ func test_signal_to_CookieCounter():
 	var outputCouter = MockOutputCounter.new()
 	sut.EarnCookie(domain, outputCouter)
 	sut.execute()
-	assert_eq(1, outputCouter.get_displayed_cookies())
+	assert_eq(1, outputCouter.displayed_cookies)
 	
 	
 		

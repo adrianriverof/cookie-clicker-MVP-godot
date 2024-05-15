@@ -20,6 +20,16 @@ _global_script_classes=[ {
 "path": "res://test/unit/test_CookieClicker.gd"
 }, {
 "base": "Reference",
+"class": "EarnCookie",
+"language": "GDScript",
+"path": "res://scripts/Presenter/EarnCookie.gd"
+}, {
+"base": "GutTest",
+"class": "EarnCookieTest",
+"language": "GDScript",
+"path": "res://test/unit/test_EarnCookie.gd"
+}, {
+"base": "Reference",
 "class": "GutHookScript",
 "language": "GDScript",
 "path": "res://addons/gut/hook_script.gd"
@@ -32,6 +42,8 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "CookieClicker": "",
 "CookieClickerTest": "",
+"EarnCookie": "",
+"EarnCookieTest": "",
 "GutHookScript": "",
 "GutTest": ""
 }

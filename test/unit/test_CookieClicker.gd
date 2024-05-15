@@ -20,3 +20,9 @@ func test_earn_more_than_one_cookie():
 	sut.earn_cookie()
 	assert_eq(3, sut.get_cookies())
 
+
+
+
+
+
+

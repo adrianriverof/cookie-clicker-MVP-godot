@@ -9,4 +9,4 @@ func EarnCookie(domain_in: CookieClicker, output = null):
 
 func execute():
 	domain.earn_cookie()
-	
+	outputCounter.update_counter(domain.get_cookies())

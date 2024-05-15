@@ -19,6 +19,11 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://test/unit/test_CookieClicker.gd"
 }, {
+"base": "Node",
+"class": "CookiesButtonAndCounter",
+"language": "GDScript",
+"path": "res://scripts/View/CookiesButtonAndCounter.gd"
+}, {
 "base": "Reference",
 "class": "EarnCookie",
 "language": "GDScript",
@@ -47,6 +52,7 @@ _global_script_classes=[ {
 _global_script_class_icons={
 "CookieClicker": "",
 "CookieClickerTest": "",
+"CookiesButtonAndCounter": "",
 "EarnCookie": "",
 "EarnCookieTest": "",
 "GutHookScript": "",

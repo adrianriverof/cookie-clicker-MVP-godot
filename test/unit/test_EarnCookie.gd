@@ -4,6 +4,8 @@ class_name EarnCookieTest
 func test_EarnCookies():
 	var domain = CookieClicker.new()
 	var sut = EarnCookie.new()
+	sut.EarnCookie(domain)
+	
 	sut.execute()
 	
 	assert_eq(1, domain.get_cookies())
